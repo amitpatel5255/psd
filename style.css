@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ .box img{
+    height: 73%;
+    width: 28%;
+    position: fixed;
+    top: 15vh;
+    right: 45vh;
+    border-radius: 50%;
+    border-bottom-left-radius: 30%;
+}
+body{
+    background-image:url("./bg4.png");
+    height: 80%;
+    width: 100%;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+header{
+    background-color: #ffffff;
+}
+.navbar{
+    padding: 15px 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width:200px;
+}
+.logo img{
+    width: 100%;
+    
+}
+.row{
+    display: flex;
+}
+.link ul li{
+    display: inline-block;
+}
+.link ul li a{
+    color: black;
+    font-size: 25px;
+    margin: 0 35px;
+}
+.search input{
+    border-radius: 15px;
+    height: 30px;
+    padding-right: 50px;
+    text-align: end ;
+    color: black;
+}
+h1,p{
+    color: white;
+}
+h1{
+font-size: 30px;
+letter-spacing: 2px;
+color: #0adab9;
+font-weight: 100;
+}
+h2{
+    width: 30%;
+font-size: 35px;
+letter-spacing: 2px;
+color: #ffffff;
+font-weight: 100;
+font-family: "Montserrat";
+}
+h3{
+width: 15%;
+height: 82px;
+font-size: 22px;
+color: #ffffff;
+}
+h4{
+width: 30%;
+height: 82px;
+font-size: 20px;
+color: #ffffff;
+font-weight: 100;
+font-family: "Nunito";
+}
+h5{
+width: 15%;
+height: 82px;
+font-size: 22px;
+color: #ffffff;
+}
+h6{
+width: 15%;
+height: 82px;
+font-size: 22px;
+color: #ffffff;
+}
+.box{
+    position: relative;
+}
+.box h1{
+    position: fixed;
+    top: 28vh;
+    left: 45px;
+}
+.box h2{
+    position: fixed;
+    top: 34vh;
+    left: 45px
+}
+.box h3{
+    position: fixed;
+    top: 56vh;
+    left: 70px
+}
+.box h4{
+    position: fixed;
+    top: 70vh;
+    left: 45px
+} 
+.box h5{
+    position: fixed;
+    top: 19vh;
+    left: 78vh;
+}
+.box h6{
+    position: fixed;
+    top: 56vh;
+    right:  1vh;
+}
+.amit{
+    display: flex;
+    text-decoration: none;
+}
+ul li a{
+    color: #fff9f9;
+}
+ .box li a{
+   position: fixed;
+    top: 85vh;
+    right:  20vh; 
+}
+
